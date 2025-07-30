@@ -12,6 +12,10 @@ func main() {
 	var age int = 20
 	country := "indonesia"
 
+	var nonValueVar string
+
+	fmt.Println("default value of nonValuedVar is", nonValueVar)
+
 	if age > 18 {
 		fmt.Println("you are an adult")
 	} else {
@@ -22,7 +26,7 @@ func main() {
 		fmt.Println("Loop in", i)
 	}
 
-	country = "Japan"
+	country = "Japan" // re assign the value
 	message := greeting("adib")
 	fmt.Println("Greeting func:", message)
 
