@@ -1,4 +1,4 @@
-## 1️⃣ Setup & Tooling
+## 1. Setup & Tooling
 
 - [x] Install Go (via `gvm`, `goenv`, or direct installer)
 - [x] Understand `GOROOT`, `GOPATH`, and modules
@@ -9,10 +9,10 @@
 
 ---
 
-## 2️⃣ Language Fundamentals
+## 2. Language Fundamentals
 
-- [ ] Packages & `package main`
-- [ ] Variables (`var`, `:=`, `const`) and zero values
+- [x] Packages & `package main`
+- [x] Variables (`var`, `:=`, `const`) and zero values
 - [ ] Functions (multiple return values, named returns)
 - [ ] Control flow: `if`, `for` (no `while`), `switch`
 - [ ] Slices, arrays, maps (differences & iteration)
@@ -31,7 +31,7 @@
 
 ---
 
-## 3️⃣ Data Structures & Methods
+## 3. Data Structures & Methods
 
 - [ ] Deep dive: slices, maps, pointers
 - [ ] Methods vs functions
@@ -48,7 +48,7 @@
 
 ---
 
-## 4️⃣ Error Handling & Testing
+## 4. Error Handling & Testing
 
 - [ ] Idiomatic errors (`error` interface, `fmt.Errorf`)
 - [ ] Sentinel errors vs `errors.Is` / `errors.As`
@@ -64,7 +64,7 @@
 
 ---
 
-## 5️⃣ Concurrency
+## 5. Concurrency
 
 - [ ] Goroutines
 - [ ] Channels (sync & async)
@@ -80,7 +80,7 @@
 
 ---
 
-## 6️⃣ Modules & Packages
+## 6. Modules & Packages
 
 - [ ] Multi-package project layout
 - [ ] Go modules: `go mod tidy`, versioning, `replace`
@@ -94,7 +94,7 @@
 
 ---
 
-## 7️⃣ Standard Library Essentials
+## 7. Standard Library Essentials
 
 - [ ] File I/O (`os`, `io`, `bufio`)
 - [ ] HTTP servers & clients (`net/http`)
@@ -110,7 +110,7 @@
 
 ---
 
-## 8️⃣ Tooling & Best Practices
+## 8. Tooling & Best Practices
 
 - [ ] Formatting (`goimports`, `gofumpt`)
 - [ ] Linting (`golangci-lint`)
@@ -125,7 +125,7 @@
 
 ---
 
-## 9️⃣ Advanced Topics
+## 9. Advanced Topics
 
 - [ ] Generics (Go 1.18+)
 - [ ] Reflection (`reflect`)
@@ -140,7 +140,7 @@
 
 ---
 
-## 🔟 Real-World Projects
+## 10. Real-World Projects
 
 - [ ] Build a REST API (`net/http` or `chi`)
 - [ ] Build a CLI tool (`cobra`)
